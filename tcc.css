@@ -60,10 +60,7 @@ h5{
 div{
     border: 2px solid red;
     display: flex;
-    text-align: center;
-}
-#tx{
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
     
 }
+
