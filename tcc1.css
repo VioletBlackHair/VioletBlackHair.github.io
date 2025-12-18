@@ -17,25 +17,26 @@ body{
     display: flex;
     flex-direction: column;
     gap: 50px;
+    background-color: rgb(186, 190, 190);
 }
 nav{
-     color: rgb(27, 26, 26);
-    background-color: rgb(39, 39, 38);
+     color: rgb(247, 242, 242);
+    background-color: rgb(80, 80, 79);
     padding: 40px;
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 10px;
     justify-content: space-evenly;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(87, 87, 87);
     position: fixed;
     top: 0;
     left: 0;
     width:100%;
 }
 nav a{
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(100, 99, 99);
     border-radius: 9px;
     padding: 16px;
     text-decoration: none;
@@ -43,7 +44,7 @@ nav a{
 }
 nav a:hover{
     background-color: rgba(0, 0, 0, 0.281);
-color: beige;
+color: rgb(255, 255, 255);
 }
 nav input{
     border-radius: 90px;
@@ -56,6 +57,7 @@ nav img{
 } 
 .t{
     text-align: center;
+    gap: 5px;
 }  
 #o{
     font-size: 23px;
@@ -63,4 +65,5 @@ nav img{
 h1{
     font-size: 50px;
 }
+
 
